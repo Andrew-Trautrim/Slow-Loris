@@ -1,0 +1,2 @@
+# Slow-Loris
+The Slow Loris Denial of Service attack is a type of DoS whereby the program creates a mass amount of connections to a server, in this case 200. In order for the connection to remain open it sends small bytes of information every 15 seconds, the connections then remain open without the server dropping the connection; if one of the connections is dropped, it automatically reconnects. The targeted server is forced to hold open these connections and for weaker servers, this slows down its processing of any other external user trying to acces the targeted site.
